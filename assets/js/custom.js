@@ -1,3 +1,9 @@
+let counter=1;
+setInterval(() =>{
+    counter++;
+    if(counter==4) location.reload();
+},1000);
+
 (function($) {
   var toggle = document.getElementById("menu-toggle");
   var menu = document.getElementById("menu");
