@@ -1,10 +1,6 @@
-let counter=1;
-setInterval(() =>{
-    counter++;
-    if(counter==4) location.reload();
-    if(counter>4) return false;
-},1000);
-
+function LoadOnce(){
+window.location.reload();
+}
 (function($) {
   var toggle = document.getElementById("menu-toggle");
   var menu = document.getElementById("menu");
