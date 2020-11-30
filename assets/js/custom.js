@@ -1,6 +1,4 @@
-function LoadOnce(){
-window.location.reload();
-}
+
 (function($) {
   var toggle = document.getElementById("menu-toggle");
   var menu = document.getElementById("menu");
