@@ -1,4 +1,3 @@
-<script type='text/javascript'>
 
 (function()
 {
@@ -14,7 +13,6 @@
   }
 })();
 
-</script>
 (function($) {
   var toggle = document.getElementById("menu-toggle");
   var menu = document.getElementById("menu");
