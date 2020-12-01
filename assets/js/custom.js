@@ -1,3 +1,17 @@
+function myAlertFxn(){
+    var nam=document.forms["contactMe"]["name"].value;   // stores name
+    var msg=document.forms["contactMe"]["message"].value;  // stores message
+    var eml=document.forms["contactMe"]["email"].value;   // stores email-id
+    if(nam ==="" || msg ==="" || eml ==="")
+        {
+            alert(`Can't submit an empty form`);
+        }
+    else
+        {
+               alert(`sending Mail wait...\nfeel free to dm on linked in also`); 
+        }
+}
+
 (function($) {
   var toggle = document.getElementById("menu-toggle");
   var menu = document.getElementById("menu");
